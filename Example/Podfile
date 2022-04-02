@@ -4,6 +4,7 @@ platform :ios, '9.0'
 
 target 'Network_Example' do
   pod 'Network', :path => '../'
+  pod 'Moya'
 
   target 'Network_Tests' do
     inherit! :search_paths
